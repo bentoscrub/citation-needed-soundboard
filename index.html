@@ -1,0 +1,38 @@
+<html>	
+	<head>
+		<title> Citation Needed </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="soundboard.css">
+	</head>
+
+	<audio id="theme" src="SFX/Theme.mp3"></audio>
+	<audio id="ding" src="SFX/Ding.mp3"></audio>
+	<audio id="mb" src="SFX/MysteryBiscuits.mp3"></audio>
+	<script> 
+		var theme = document.getElementById("theme"); 
+		var ding = document.getElementById("ding"); 
+		var mysteryBiscuits = document.getElementById("mb"); 
+
+		function playSound(snd) { 
+			snd.play(); 
+		}  
+	</script> 
+	<body>
+		<h1>
+			Citation Needed - The Soundboard
+		</h1>
+		<h2>
+			What is this?
+		</h2>
+		<p>
+			This is a soundboard for sound effects used in the podcast/webseries </i>Citation Needed</i> by the <a href="http://www.techdif.co.uk/"> Technical Diffculties </a>.
+		</p>
+		<div class="divider"></div>
+		<div class="container">
+			<button onclick="playSound(theme)" class="button"> Theme </button>
+			<button onclick="playSound(ding)" class="button"> Ding! </button>
+			<button onclick="playSound(mysteryBiscuits)" class="button"> Mystery Biscuits </button>
+		</div>
+	</body>
+</html>
