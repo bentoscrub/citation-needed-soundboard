@@ -52,7 +52,7 @@ a:visited {
 }
 
 .divider {
-	width: 40%;
+	width: 60%;
 	height: 2px;
 	margin: auto;
 	max-width: 1400px;
@@ -64,13 +64,12 @@ a:visited {
 
 @keyframes widen {
 	from {width: 0; opacity: 0;}
-	to {width: 40%; opacity: 100;}
+	to {width: 60%; opacity: 100;}
 }
 
 .container {
-	width: 590px;
 	margin: 0 auto;
-
+	text-align: center
 }
 
 .button {
